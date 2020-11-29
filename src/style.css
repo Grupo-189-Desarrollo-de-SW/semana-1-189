@@ -3,6 +3,7 @@ body{
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    background-color: #ededed;
 }
 
 .header {
@@ -73,4 +74,50 @@ body{
     border-radius: 20px;
     width: 500px;
     height: 500px;
+}
+.servicios{
+    background-color: #27057d;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px 4px rgba(39, 5, 125, 0.2);;
+}
+
+.servicios__contenedor{
+    background-color: white;
+    border-radius: 20px;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.servicio__referencia {
+    font-family: ;
+    color: #27057d;
+    font-weight: bold;
+}
+
+.servicio__referencia:hover {
+    font-size:20px;
+    text-decoration: underline;
+}
+
+.servicio{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servicios__titulo{
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    text-align: left;
+    width: 100%;
+    margin-left: 15px;
+    margin-bottom: 5px;
 }
