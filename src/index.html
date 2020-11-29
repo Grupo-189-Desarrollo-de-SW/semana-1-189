@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi primera pagina web</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bit Travel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header class="header">
+        <!-- baner -->
+        <section class="banner">
+            <!-- banner imagen -->
+            <img class="banner__imagenP" src="images/banner.png" alt="" width="1200px">
+            <!-- logo imagen -->
+            <img class="banner__logo" src="images/logo.png" alt="" width="150px">
+        </section>
+        <!-- menu -->
+        <section class="barra-menu">
+            
+            <nav class="menu-opciones">
+                <ul class="opciones">
+                    <li class="opciones__item">
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li class="opciones__item">
+                        <a href="#services">Servicios</a>
+                    </li>
+                    <li class="opciones__item">
+                        <a href="#news">Noticias</a>
+                    </li>
+                    <li class="opciones__item">
+                        <a href="#team">Miembros</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        
+    </header>
+
     <main>
+      
       <!--seccion servicios -->
       <section id="services" class="servicios">
         <h2 class="servicios__titulo">Servicios</h2>
@@ -60,5 +93,54 @@
         </div>
       </section>
       <!-- fin seccion de servicios -->
-  </body>
-</html>
+
+        <section id="news" class="noticias">
+            <!-- Titulo -->
+            <div class="noticias__titulo">
+                <p> 
+                    Noticias
+                </b>
+                <hr size="3" color="white">
+            </div>
+            <!-- Noticias 1 y 2 -->
+            <div class="noticias__contenedorFila">
+                <div class="noticia">
+                    <p> <b> El alumbrado navideño en Bogotá se encenderá este domingo 29 de noviembre</b> </p>
+                    <img src="https://www.elespectador.com/resizer/fmMVj8Qu-B9-z4PsUvpd5aiqD7Q=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/5BKER2Q2IBBDTGHROYQHQOWMME.JPG" alt="" width="400px">
+                    <p>Este año, la propuesta de alumbrado de la ciudad será diferente, ya que se fusionará con la estrategia de Cielo Abierto, para así fortalecer la reactivación económica. Del mismo modo, habrá nuevos lugares para visitar.</p>
+                    <a href="https://www.elespectador.com/noticias/bogota/el-alumbrado-navideno-en-bogota-se-encendera-este-domingo-29-de-noviembre/">Leer más >></a>
+                </div>
+                <div class="noticia">
+                    <p> <b> Negociación del salario debe considerar reactivación y protección del empleo: Duque</b></p>
+                    <img src="https://www.elespectador.com/resizer/LiW5qtWbnW4z2lapdA-TD5k6edE=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/UPUPZI34CBH4LKWTFCGDCUV7JY.jpg" alt="" width="400px">
+                    <p>El presidente Iván Duque sostiene que  en la concertación salarial debe tenerse en cuenta la situación ocasionada por la pandemia y la necesidad de generar mayor crecimiento y mayores puestos de trabajo.</p>
+                    <a href="https://www.elespectador.com/noticias/economia/negociacion-del-salario-debe-considerar-reactivacion-y-proteccion-del-empleo-duque/">Leer más >></a>
+                </div>
+            </div>  
+            <!-- Noticias 3 y 4 -->
+            <div class="noticias__contenedorFila">
+                <div class="noticia">
+                    <p> <b> Black Friday 2020: se han realizado 843.074 transacciones </b> </p>
+                    <img src="https://www.elespectador.com/resizer/8tCaqIzMzJExfA1c0VTQbnKwFtw=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/UCIQHQSJ55CILLYGFT272JTIYI.jpg" alt="" width="400px">
+                    <p>Este viernes se realizó a nivel mundial el Black Friday, una jornada anual de descuentos. En Colombia se realizará del 27 al 29 de noviembre, con el objetivo de aportar a la reactivación económica del comercio.</p>
+                    <a href="https://www.elespectador.com/noticias/economia/black-friday-2020-se-han-realizado-843074-transacciones/?utm_source=ee.com&utm_medium=widget_lateral_articulos&utm_campaign=ultimas_noticias&cx_testId=6&cx_testVariant=cx_1#cxrecs_s">Leer más >></a>
+                </div>
+                <div class="noticia">
+                    <p> <b> ¿Estamos en medio de una burbuja de autos eléctricos? </b> </p>
+                    <img src="https://www.elespectador.com/resizer/hS9Q-HgaQA_0XSmx0weoXS72FN8=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/TF36UYZ7UFGDHN5MYVBLQNT7RY.jpg" alt="" width="400px">
+                    <p>El valor de mercado de Tesla se elevó a más de US$540.000 millones, equivalente a 250 veces sus ganancias esperadas este año, lo que significa que ahora es la décima empresa más valiosa del mundo, según datos de Bloomberg.</p>
+                    <a href="https://www.elespectador.com/noticias/economia/estamos-en-medio-de-burbuja-de-autos-electricos/?utm_source=ee.com&utm_medium=widget_lateral_articulos&utm_campaign=ultimas_noticias&cx_testId=6&cx_testVariant=cx_1#cxrecs_s">Leer más >></a>
+                </div>
+            </div>
+
+        </section>
+        <section id="team">
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
