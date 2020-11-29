@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    width: 1200px;
+}
+.header{
+    background-color: rgb(157, 156, 173);
+}
+
+.servicios{
+    background-color: rgb(215, 212, 250);
+}
+
+.noticias{
+    background-color: rgb(242, 250, 201);
+}
+
+.miembros{
+    background-color: rgb(173, 121, 158);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.miembro__contenedor{
+    background-color: rgb(180, 131, 166);
+    margin: 1%;
+    justify-content: center;
+    width: 300px;
+    
+}
+
+
+.footer{
+    background-color: rgb(250, 187, 231);
+}
+
+.barra-superior{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.titulo-principal,.contenedor-menu {
+    width: 50%;
+
+}
+
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
