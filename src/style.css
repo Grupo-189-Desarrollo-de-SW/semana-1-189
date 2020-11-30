@@ -121,3 +121,42 @@ body{
     margin-left: 15px;
     margin-bottom: 5px;
 }
+/*Footer*/
+footer {
+    background-color: #5e17eb;
+    color: white;
+    overflow: hidden;
+    border-radius: 0 0 25px 25px;
+    padding: 25px;
+}
+.first-column {
+    border-right: 2px solid white;
+    padding: 15px;;
+}
+.full-width {
+    min-width: 100%;
+}
+.half {
+    width: 50%;
+    min-width: 350px;
+    display: table-cell;
+    padding: 15px;
+}
+.inner_half {
+    min-width: 180px !important;
+    width: 45%;
+    display: inline-block;
+}
+.texto_peque {
+    font-size: 50%;
+}
+.separador {
+    background: white;
+    border-radius:1px;
+    width: 2px;
+}
+@media screen (min-width: 768px){
+    .first-column {
+        min-width: 500px;
+    }
+}
