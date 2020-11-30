@@ -1,0 +1,29 @@
+/* ESTILO MIEMBROS issue4*/
+.miembros{
+    background-color: rgb(84, 29, 236);
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.miembros__titulo{
+    color: white;
+    font-weight: bold;
+    font-size: 1.875rem;
+    text-align: left;
+    width: 100%;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.miembro__contenedor{
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    justify-content: center;
+    width: 22%;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
